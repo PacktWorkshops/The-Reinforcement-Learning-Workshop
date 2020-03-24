@@ -130,3 +130,6 @@ dmypy.json
 
 # Mac stuff
 .DS_STORE
+
+# Gym stuff
+gym-results/
