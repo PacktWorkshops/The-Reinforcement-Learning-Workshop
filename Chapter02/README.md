@@ -13,7 +13,7 @@ In these exercises you will practice with Markov Reward Processes (MRPs) and wit
 
 ## Activity
 
-The activity of this exercise is:
+The activity of this chapter is:
 
 - Gridworld: [link](Activity02_01/Activity02_01.ipynb)
 
