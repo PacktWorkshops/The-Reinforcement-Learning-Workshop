@@ -10,7 +10,6 @@ Here you can find all exercises of this chapter
 - Policies: [link](Exercise01_02/Exercise01_02.ipynb)
 - Creating a Space for Image Observations: [link](Exercise01_03/Exercise01_03.ipynb)
 - Implementing the Reinforcement Learning Loop with Gym: [link](Exercise01_04/Exercise01_04.ipynb)
-- : [link](Activity01_05/Activity01_05.ipynb)
 
 In these exercises you will practice with concepts like Agent, Environment, Policy. 
 
