@@ -31,7 +31,7 @@ class Bandit:
 
         elif reward_dists is None or reward_dists_params is None:
             self.optimal_arm_id = optimal_arm_id
-            self.n_arms = n_arms
+            self.n_arms = 2
             self.reward_dists = [np.random.binomial for _ in range(n_arms)]
             self.reward_dists_params = [(1, 0.7), (1, 0.3)]
 
