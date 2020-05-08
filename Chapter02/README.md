@@ -2,9 +2,17 @@
 
 In this Chapter you will learn more in details about MDPs and Bellman Equations. 
 
+## Examples
+
+Examples of this chapter are:
+
+- Student MDP: [link](Examples/Student_MDP.ipynb)
+
+In this example you will practice with MDPs, you will learn how to calculate the value function for a given policy and how to calculate the action value function.
+
 ## Exercises
 
-Here you can find all exercises of this chapter
+Here you can find all exercises of this chapter:
 
 - Bellman Equation for MRPs: [link](Exercise02_01/Exercise02_01.ipynb)
 - Solving MDPs: Linear Programming: [link](Exercise02_02/Exercise02_02.ipynb)

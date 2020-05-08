@@ -2,9 +2,18 @@
 
 This chapter is an introduction to Reinforcement Learning, the basic concepts and the theory behind the framework.
 
+## Examples
+
+Examples of this chapter are:
+
+- Getting started with Gym: [link](Examples/Getting_started_with_Gym.ipynb)
+- Getting started with Baselines: [link](Examples/Getting_started_with_Baselines.ipynb)
+
+In this examples you will practice with Gym and Baselines, the two main RL libraries.
+
 ## Exercises
 
-Here you can find all exercises of this chapter
+Here you can find all exercises of this chapter:
 
 - Toy Environment: [link](Exercise01_01/Exercise01_01.ipynb)
 - Policies: [link](Exercise01_02/Exercise01_02.ipynb)
