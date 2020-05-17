@@ -2,8 +2,6 @@ import unittest
 from ipynb.fs.full.Queueing_bandits import GreedyQueue, ETCQueue, ExpThSQueue, \
     ExploitingThSQueue
 
-import sys
-sys.path.append('../')
 from utils import QueueBandit
 
 
