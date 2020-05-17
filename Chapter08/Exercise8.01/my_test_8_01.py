@@ -1,5 +1,5 @@
 import unittest
-from ipynb.fs.full.The_e_Greedy_Algorithm import eGreedy
+from ipynb.fs.full.Exercise8_01 import eGreedy
 
 import numpy as np
 np.random.seed(0)
