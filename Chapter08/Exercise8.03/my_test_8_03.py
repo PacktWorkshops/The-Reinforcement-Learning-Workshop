@@ -4,8 +4,6 @@ from ipynb.fs.full.Thompson_Sampling import BernoulliThompsonSampling
 import numpy as np
 np.random.seed(0)
 
-import sys
-sys.path.append('../')
 from utils import Bandit
 
 
