@@ -1,5 +1,5 @@
 import unittest
-from ipynb.fs.full.Thompson_Sampling import BernoulliThompsonSampling
+from ipynb.fs.full.Exercise8_03 import BernoulliThompsonSampling
 
 import numpy as np
 np.random.seed(0)
