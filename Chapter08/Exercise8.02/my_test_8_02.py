@@ -1,5 +1,5 @@
 import unittest
-from ipynb.fs.full.The_UCB1_Algorithm import UCB
+from ipynb.fs.full.Exercise8_02 import UCB
 
 import numpy as np
 np.random.seed(0)
