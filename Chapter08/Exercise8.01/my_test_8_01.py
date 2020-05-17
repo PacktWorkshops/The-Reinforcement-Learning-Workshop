@@ -4,8 +4,6 @@ from ipynb.fs.full.The_e_Greedy_Algorithm import eGreedy
 import numpy as np
 np.random.seed(0)
 
-import sys
-sys.path.append('../')
 from utils import Bandit
 
 
