@@ -1,5 +1,5 @@
 import unittest
-from ipynb.fs.full.Queueing_bandits import GreedyQueue, ETCQueue, ExpThSQueue, \
+from ipynb.fs.full.Activity8_01 import GreedyQueue, ETCQueue, ExpThSQueue, \
     ExploitingThSQueue
 
 from utils import QueueBandit
