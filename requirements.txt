@@ -1,1 +1,21 @@
+## Chapter 3, 4, 7:
+#### Ubuntu packages / applications
+anaconda
+cmake libopenmpi-dev python3-dev zlib1g-dev
 
+#### Python modules
+python3.7.4
+jupyter
+matplotlib
+numpy
+tensorflow (or tensorflow-gpu) 2.1.0
+tensorflow-datasets
+gym
+gym[atari]
+
+#### OpenAI baselines installation
+git clone https://github.com/openai/baselines.git
+cd baselines
+git checkout tf2
+python3.7 -m pip install cloudpickle==1.2.0
+python3.7 -m pip install -e .
