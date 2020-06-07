@@ -23,6 +23,10 @@ gym
 gym[atari]
 torch==1.5.0+cpu
 
+## Chapter 10
+gym[atari]==0.17.2
+numpy 1.18.4
+
 #### OpenAI baselines installation
 git clone https://github.com/openai/baselines.git
 cd baselines
