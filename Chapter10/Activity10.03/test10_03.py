@@ -76,8 +76,8 @@ class DARQN():
 
 class Test(unittest.TestCase):
 	def setUp(self):
-		import Activity10_03
-		self.exercises = Activity10_03
+		import Activity10_3
+		self.exercises = Activity10_3
 
 		np.random.seed(168)
 		tf.random.set_seed(168)
