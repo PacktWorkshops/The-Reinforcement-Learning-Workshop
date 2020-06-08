@@ -11,8 +11,8 @@ from tensorflow.keras.optimizers import RMSprop
 
 class Test(unittest.TestCase):
 	def setUp(self):
-		import Exercise10_02
-		self.exercises = Exercise10_02
+		import Exercise10_03
+		self.exercises = Exercise10_03
 
 		np.random.seed(8)
 		tf.random.set_seed(8)

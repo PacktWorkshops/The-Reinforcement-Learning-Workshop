@@ -73,8 +73,8 @@ class DRQN():
 
 class Test(unittest.TestCase):
 	def setUp(self):
-		import Activity10_02
-		self.exercises = Activity10_02
+		import Activity10_2
+		self.exercises = Activity10_2
 
 		np.random.seed(168)
 		tf.random.set_seed(168)

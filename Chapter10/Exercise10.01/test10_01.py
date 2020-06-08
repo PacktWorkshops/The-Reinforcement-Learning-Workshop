@@ -11,10 +11,11 @@ class Test(unittest.TestCase):
 		import Exercise10_01
 		self.exercises = Exercise10_01
 
-        self.episodes = 10
+		self.episodes = 10
 
 	def test_episodes(self):
 		self.assertEqual(self.exercises.episodes, self.episodes)
+
 
 if __name__ == '__main__':
 	unittest.main()

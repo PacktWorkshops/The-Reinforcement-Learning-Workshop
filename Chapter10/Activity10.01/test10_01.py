@@ -71,8 +71,8 @@ class DQN():
 
 class Test(unittest.TestCase):
 	def setUp(self):
-		import Activity10_01
-		self.exercises = Activity10_01
+		import Activity10_1
+		self.exercises = Activity10_1
 
 		np.random.seed(168)
 		tf.random.set_seed(168)
