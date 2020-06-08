@@ -33,7 +33,7 @@ class DRQN():
 	def build_model(self):
 		model = Sequential()
 		model.add(TimeDistributed(Conv2D(32, 8, (4, 4), activation='relu', padding='valid'),
-								  input_shape=(SEQUENCE, IMG_SIZE, IMG_SIZE, 1)))
+								  input_shape=(self.SEQUENCE, self.IMG_SIZE, self.IMG_SIZE, 1)))
 		model.add(TimeDistributed(Conv2D(64, 4, (2, 2), activation='relu', padding='valid')))
 		model.add(TimeDistributed(Conv2D(64, 3, (1, 1), activation='relu', padding='valid')))
 		model.add(TimeDistributed(Flatten()))

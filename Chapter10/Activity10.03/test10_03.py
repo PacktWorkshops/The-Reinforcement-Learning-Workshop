@@ -8,7 +8,7 @@ import random
 import numpy as np
 from collections import deque
 import tensorflow as tf
-from tensorflow.keras.models import Sequential
+from tensorflow.keras.models import Model
 from tensorflow.keras.layers import Input, Dense, Conv2D, MaxPooling2D, TimeDistributed, Flatten, GRU, Attention
 from tensorflow.keras.optimizers import RMSprop
 import datetime
@@ -31,7 +31,7 @@ class DARQN():
 		self.target_model = self.build_model()
 
 	def build_model(self):
-		inputs = Input(shape=(SEQUENCE, IMG_SIZE, IMG_SIZE, 1))
+		inputs = Input(shape=(self.SEQUENCE, self.IMG_SIZE, self.IMG_SIZE, 1))
 		conv1 = TimeDistributed(Conv2D(32, 8, (4, 4), activation='relu', padding='valid'))(inputs)
 		conv2 = TimeDistributed(Conv2D(64, 4, (2, 2), activation='relu', padding='valid'))(conv1)
 		conv3 = TimeDistributed(Conv2D(64, 3, (1, 1), activation='relu', padding='valid'))(conv2)
