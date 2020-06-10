@@ -22,6 +22,7 @@ tensorflow-datasets
 gym
 gym[atari]
 torch==1.5.0+cpu
+seaborn
 
 ## Chapter 10
 gym[atari]==0.17.2
