@@ -30,9 +30,9 @@ class DQN():
 		self.model = self.build_model()
 		self.target_model = self.build_model()
 
-	def build_model(self):
+	def build_model(self, SEQUENCE=4, IMG_SIZE=84):
 		model = Sequential()
-		model.add(Conv2D(32, 8, (4, 4), activation='relu', padding='valid', input_shape=(self.IMG_SIZE, self.IMG_SIZE, 1)))
+		model.add(Conv2D(32, 8, (4, 4), activation='relu', padding='valid', input_shape=(IMG_SIZE, IMG_SIZE, 1)))
 		model.add(Conv2D(64, 4, (2, 2), activation='relu', padding='valid'))
 		model.add(Conv2D(64, 3, (1, 1), activation='relu', padding='valid'))
 		model.add(Flatten())
