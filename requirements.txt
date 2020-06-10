@@ -11,7 +11,7 @@ tensorflow==1.15.0
 #### Ubuntu packages / applications
 anaconda
 cmake libopenmpi-dev python3-dev zlib1g-dev
-seaborn==0.10.1
+
 
 #### Python modules
 python3.7.4
@@ -23,6 +23,7 @@ tensorflow-datasets
 gym
 gym[atari]
 torch==1.5.0+cpu
+seaborn
 
 ## Chapter 10
 gym[atari]==0.17.2
