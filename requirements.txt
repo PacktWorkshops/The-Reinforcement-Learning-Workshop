@@ -12,6 +12,9 @@ tensorflow==1.15.0
 anaconda
 cmake libopenmpi-dev python3-dev zlib1g-dev
 
+## Chapter 8 (only for unit testing)
+ipynb
+
 #### Python modules
 python3.7.4
 jupyter
