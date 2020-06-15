@@ -12,6 +12,9 @@ tensorflow==1.15.0
 anaconda
 cmake libopenmpi-dev python3-dev zlib1g-dev
 
+## Chapter 8 (only for unit testing)
+ipynb
+
 #### Python modules
 python3.7.4
 jupyter
@@ -22,6 +25,7 @@ tensorflow-datasets
 gym
 gym[atari]
 torch==1.5.0+cpu
+seaborn
 
 ## Chapter 10
 gym[atari]==0.17.2
