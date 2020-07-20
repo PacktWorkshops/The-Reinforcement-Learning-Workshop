@@ -1,47 +1,6 @@
 PRICES = ["NA", 9, 40, 50, 70, 80]
 
 
-def cut_array(arr):
-    """
-    Calculates individual pieces of arrays representing
-    cuts
-    :param arr: array representing cuts
-    :return: list of numbers indicating cuts
-    """
-    if sum(arr) <= 0:
-        return [len(arr)]
-    pointer = 1
-    parts = []
-    current_count = 1
-    while pointer < len(arr):
-        if arr[pointer] == 1:
-            parts.append(current_count)
-            current_count = 0
-        pointer += 1
-        current_count += 1
-    if arr[0] == 0:
-        parts[0] += current_count
-    else:
-        parts.append(current_count)
-    return parts
-
-
-def calculate_profit(cuts):
-    """
-    Calculates the profit of the current configuration
-    :param cuts: arr
-    :return:
-    """
-    cuts = cut_array(cuts)
-    profit = 0
-    for cake_piece in cuts:
-        profit += PRICES[cake_piece]
-    print(f"Cake sizes: {cuts}")
-    print(f"Profit: {profit}")
-    print("*" * 10)
-    return profit
-
-
 def partition(cake_size):
     """
     Partitions a cake into different sizes, and calculates the
