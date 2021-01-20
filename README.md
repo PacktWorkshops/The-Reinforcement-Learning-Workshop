@@ -10,7 +10,10 @@ This is the repository for [The Reinforcement Learning Workshop](https://www.ama
 ## Requirements and Setup
 <a href="https://www.amazon.com/Reinforcement-Learning-Workshop-cutting-edge-reinforcement-dp-1800200455/dp/1800200455/ref=mt_other?_encoding=UTF8&me=&qid=1611062513&utm_source=github&utm_medium=repository&utm_campaign=9781800200456&utm_term=Reinforcement%20Learning&utm_content=The%20Reinforcement%20Learning%20Workshop"><img src="https://github.com/PacktWorkshops/Workshop-Covers/blob/master/B16182_The%20Reinforcement%20Learning%20Workshop.png" alt="The Reinforcement Learning Workshop" height="290px" width="230px" align="right" this.target="_blank"></a>
 
-To get started with the project files, you'll need to:
+To get started with the project files, you'll need to install Anaconda Navigator for Jupyter:
+* [Windows](https://docs.anaconda.com/anaconda/install/windows/)
+* [macOS](https://docs.anaconda.com/anaconda/install/mac-os/)
+* [Linux](https://docs.anaconda.com/anaconda/install/linux/)
 
 
 ## About The Reinforcement Learning Workshop
