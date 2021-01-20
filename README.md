@@ -25,4 +25,6 @@ With the help of practical examples and engaging activities, [The Reinforcement 
 * Build a deep Q model network for playing the video game Breakout
 
 ## Related Workshops
-
+* [The Applied AI and Natural Language Processing Workshop](https://www.amazon.com/Applied-Natural-Language-Processing-Workshop-ebook/dp/B08Q8GNTGT/ref=sr_1_1?dchild=1&keywords=The%20Applied%20AI%20and%20Natural%20Language%20Processing%20Workshop&qid=1610976605&sr=8-1&utm_source=github&utm_medium=repository&utm_campaign=9781801071307&utm_term=Applied%20AI%20and%20Natural%20Language%20Processing&utm_content=The%20Applied%20AI%20and%20Natural%20Language%20Processing%20Workshop)
+* [The Deep Learning Workshop](https://www.amazon.com/Deep-Learning-Workshop-next-generation-TensorFlow-ebook/dp/B08Q8GP7DJ/ref=sr_1_2?dchild=1&keywords=The%20Deep%20Learning%20Workshop&qid=1611054533&sr=8-2&utm_source=GitHub&utm_medium=Repository&utm_campaign=9781801075169&utm_term=Deep%20Learning&utm_content=The%20Deep%20Learning%20Workshop)
+* [The Applied TensorFlow and Keras Workshop](https://www.amazon.com/Applied-TensorFlow-Keras-Workshop-real-world-ebook/dp/B08Q8F55ZS/ref=sr_1_1?dchild=1&keywords=The%20Applied%20TensorFlow%20and%20Keras%20Workshop&qid=1610976724&sr=8-1&utm_source=github&utm_medium=repository&utm_campaign=9781801078153&utm_term=Applied%20TensorFlow%20and%20Keras&utm_content=The%20Applied%20TensorFlow%20and%20Keras%20Workshop)
