@@ -1,3 +1,6 @@
+
+<b><p align='center'>[![Packt Sale](https://static.packt-cdn.com/assets/images/packt+events/Improve_UX.png)](https://packt.link/algotradingpython)</p></b> 
+
 # The Reinforcement Learning Workshop
 [![GitHub issues](https://img.shields.io/github/issues/PacktWorkshops/The-Reinforcement-Learning-Workshop.svg)](https://github.com/PacktWorkshops/The-Reinforcement-Learning-Workshop/issues)
 [![GitHub forks](https://img.shields.io/github/forks/PacktWorkshops/The-Reinforcement-Learning-Workshop.svg)](https://github.com/PacktWorkshops/The-Reinforcement-Learning-Workshop/network)
